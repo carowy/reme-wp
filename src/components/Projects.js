@@ -80,7 +80,7 @@ function Projects() {
                 </div>
             </div>
             <div className="projects-s3">
-                <CloudinaryContext cloudName="dpk2jpxan">   
+                <CloudinaryContext>   
                     <SimpleReactLightbox>
                         <SRLWrapper className="gallery-wrapper">
                             {/* Kopeeri see kõige üles asendada PILDI LINK ja PILDI NIMI
