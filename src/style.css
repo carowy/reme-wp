@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', 'sans-serif';
+    letter-spacing: 0.5px;
+    box-sizing: border-box;
+}
+html {
+    overflow: -moz-scrollbars-vertical; 
+    overflow-y: scroll;
+}
+body {
+    width: 100%;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-weight: 900;
+}
+#heading-position {
+    text-align: center;
+    padding: 1em;
+    margin-bottom: 3em;
+}
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    background-color: rgb(250, 250, 250);
+}
+#footer-extra-div {
+    display: inline-block;
+}
+.footer-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer-s1 {
+    align-self: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.footer-wrapper div {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+#footer-link {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 0;
+    color: #000;
+}
+#footer-link:hover {
+    text-decoration: underline;
+}
+#footer-barrier {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    justify-self: center;
+    max-width: 100%;
+}
+.footer-s2, .footer-s3 {
+    margin-top: 1em;
+}
+.footer-s4 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1em;
+}
+/* Navigation bar */
+
+.navbar {
+    width: 100%;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1em;
+    background-color: #000;
+}
+.nav > .nav-link {
+    text-align: center;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(200,200,200);
+    transition: 0s;
+}
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+    color: rgb(200, 200, 200);
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: rgb(255, 255, 255);
+}
+.nav .nav-link{
+    color: rgb(201, 201, 201);
+}
+.link-element:hover {
+    color: rgb(255, 255, 255);
+}
+.navbar-toggler {
+    border: none;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+.navigation-languages {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+    align-items: center;
+}
+.navigation-languages button {
+    margin-left: 10px;
+    margin-right: 10px;
+    background: none;
+    border: none;
+    color: white;
+    transition: 0.3s;
+}
+.navigation-languages button:hover {
+    text-decoration: underline;
+}
+.link-element {
+    text-align: center;
+    margin-left: 0.7em;
+    margin-right: 0.7em;
+    white-space: nowrap;
+    font-weight: 400;
+    padding: 1em;
+    text-decoration: none;
+    color: rgb(200, 200, 200);
+}
+
+/* Home page */
+
+.home-s1 {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('./images/maestro.jpg');
+    display: grid;
+    place-items: center;
+    color: white;
+}
+#home-welcome-text, #home-welcome-animation {
+    text-align: center;
+}
+#home-welcome-button {
+    display: flex;
+    justify-content: center;
+}
+#home-welcome-button button, #contact-now-button {
+    font-size: 1em;
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+    background: none;
+    border: 2px solid white;
+    transition: 0.4s;
+    margin-top: 1.5em;
+}
+#home-welcome-button button:hover, #contact-now-button:hover {
+    background-color: white;
+    color: #000;
+}
+#home-welcome-animation {
+    box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    height: 40px;
+    overflow: hidden;
+}
+#home-animation-wrapper span {
+    font-size: larger;
+    text-align: center;
+    display: block;
+    height: 100%;
+    animation: changewords 7s infinite;
+}
+@keyframes changewords {
+    10% {
+        transform: translateY(-112%);
+    }
+    25% {
+        transform: translateY(-100%);
+    }
+    35% {
+        transform: translateY(-212%);
+    }
+    50% {
+        transform: translateY(-200%);
+    }
+    60% {
+        transform: translateY(-312%);
+    }
+    75% {
+        transform: translateY(-300%);
+    }
+    85% {
+        transform: translateY(-412%);
+    }
+    100% {
+        transform: translateY(-400%);
+    }
+}
+
+/* Home section 2*/
+.home-s2 {
+    background-color: rgb(255, 255, 255);
+    padding: 4em;
+}
+#home-s2-heading h1{
+    font-weight: 900;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.service-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 3em;
+}
+#card{
+    flex: 1 1 150px;
+    margin: 2em;
+    padding: 1.5em;
+    max-width: 18em;
+    display: inline-block;
+    text-align: center;
+}
+#card p {
+    word-wrap: break-word;
+    white-space: normal;
+    width: 250px;
+    text-align: start;
+}
+#card div {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+/* Home section 3 */
+.home-s3 {
+    background-color: #000;
+}
+.sr-only {
+    display: none;
+}
+
+/* About page */
+.about-section1 {
+    background-color: rgb(245, 245, 245);
+    padding: 4em;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./images/ylemiste.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.about-section1 h1 {
+    font-weight: 900; 
+}
+.about-section1 p {
+    font-weight: 400;
+    font-size: 1.1em;
+}
+.about-section2 {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+#about-section2-text div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#about-section2-text h1 {
+    color: rgba(255, 255, 255, 0.8);
+}
+#about-section2-text p {
+    font-size: 1.1em;
+    text-align: justify;
+    max-width: 380px;
+    color: rgba(255, 255, 255, 0.808);
+    margin: 0;
+}
+#about-section2-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#about-section2-wrapper div {
+    margin-top: 1em;
+    margin-right: 1.5em;
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+    flex: 0 1 400px;
+}
+#about-section2-image {
+    text-align: center;
+    align-self: center;
+}
+#about-image {
+    box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.411);
+}
+.about-section3 {
+    display: flex;
+    justify-content: center;
+    padding: 3em;
+}
+.about-section3-wrapper h1 {
+    text-align: center;
+    margin: 10px;
+    font-weight: 900;
+    color: #000;
+}
+#sertificate {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#sertificate div {
+    margin: 1em;
+}
+#sertificate-logo {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 300px;
+}
+#sertificate-text {
+    max-width: 400px;
+    text-align: justify;
+    color: #000;
+}
+/* Contact page */
+.contact-s1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 2em;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('./images/ylemiste.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.contact-s1 h1 {
+    font-weight: 700;
+}
+.contact-s1 p {
+    max-width: 700px;
+    margin-bottom: 0;
+    margin-top: 1em;
+}
+/* FORM STYLINGS */
+.contact-s2 {
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-s2-1 {
+    max-width: 30em;
+}
+.form-group {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.form-control {
+    padding: 0.7em;
+}
+#form-submit-btn {
+    padding: 1em;
+    background-color: #000;
+    border: none;
+    color: white;
+    width: 100%;
+    display: block;
+}
+#form-submit-btn:hover {
+    background-color: rgb(51, 51, 51);
+}
+#contact-form-title {
+    text-align: center;
+}
+
+/* PERSONAL CONTACT INFORMATION */
+.contact-s3 {
+    background-color: #000;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#personal-contact-info {
+    text-align: center;
+    color: white;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    flex: 1 1 400px;
+}
+#owner-name {
+    font-weight: 900;
+}
+#role-name {
+    font-size: 1.5rem;
+}
+#extra-info {
+    font-size: 2rem;
+    margin-bottom: -1rem;
+}
+#contact-info-barrier {
+    border: 1px solid rgb(255, 255, 255);
+}
+@media only screen and (max-width: 816px) {
+    #contact-info-barrier {
+        display: none;
+    }
+}
+/* DONE WORKS PROJECTS */
+.projects-s1 {
+    padding: 3em;
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('./images/ylemiste.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.projects-s1 h1 {
+    font-weight: 700;
+}
+.projects-s2 {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+#featured-project div {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+#featured-project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2em;
+}
+#featured-project-img {
+    max-width: 500px;
+    box-shadow: 9px 9px 6px rgba(170, 170, 170, 0.8);
+}
+#featured-project-img img {
+    width: 100%;
+    height: auto;
+}
+#featured-project-txt {
+    word-wrap: break-word;
+    max-width: 500px;
+    align-self: center;
+    margin: 3em;
+}
+#featured-project h1 {
+    color: rgb(60, 60, 60);
+}
+.featured-project-2 {
+   flex-direction: row-reverse;
+}
+.projects-s3 {
+    display: flex;
+    justify-content: center;
+    padding: 3em;
+}
+#image-thumbnail {
+    max-width: 400px;
+    justify-self: center;
+}
+.projects-s3 a {
+    margin: 1em;
+}
+.projects-s3 img {
+    width: 100%;
+    height: auto;
+}
+.projects-s3 div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
