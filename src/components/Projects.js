@@ -88,29 +88,53 @@ function Projects() {
                                 <Image publicId="REME images/PILDI NIMI" id="image-thumbnail" />
                                 </a>
                             */}
-                            <a href={`https://res.cloudinary.com/dpk2jpxan/image/upload/v1628594930/REME%20images/maestro_cnhpod.jpg`}>
+                            <a href={`https://res.cloudinary.com/dpk2jpxan/image/upload/v1628594930/REME%20images/maestro_cnhpod.jpg`} id="gallery-image">
                                 <Image publicId="REME images/maestro_cnhpod" id="image-thumbnail" alt="Maestro maja kuskil Tallinnas"/>
                             </a>
+                            <a href={`https://res.cloudinary.com/dpk2jpxan/image/upload/v1629377835/REME%20images/Baltijaamaturg_shmcau.jpg`}>
+                                <Image publicId="REME images/Baltijaamaturg_shmcau" id="image-thumbnail" />
+                            </a>
+                            <a href={`https://res.cloudinary.com/dpk2jpxan/image/upload/v1629377835/REME%20images/EestiMuusikajaTeatriakadeemia_zyvsu2.jpg`}>
+                                <Image publicId="REME images/EestiMuusikajaTeatriakadeemia_zyvsu2" id="image-thumbnail" />
+                            </a>
+                            <a href={`https://res.cloudinary.com/dpk2jpxan/image/upload/v1629377841/REME%20images/Kultuurikeskuskaja_g7hrrb.jpg`}>
+                                <Image publicId="REME images/Kultuurikeskuskaja_g7hrrb" id="image-thumbnail" />
+                            </a>
+                            <a href={`https://res.cloudinary.com/dpk2jpxan/image/upload/v1629377845/REME%20images/Zenitharimaja_dauctb.jpg`}>
+                                <Image publicId="REME images/Zenitharimaja_dauctb" id="image-thumbnail" />
+                            </a>
+                            <a href={`https://res.cloudinary.com/dpk2jpxan/image/upload/v1629377843/REME%20images/Sepapaja_1_gwkgyi.jpg`}>
+                                <Image publicId="REME images/Sepapaja_1_gwkgyi" id="image-thumbnail" />
+                            </a>
+                            <a href={`https://res.cloudinary.com/dpk2jpxan/image/upload/v1628597972/REME%20images/ylemiste_xvompf.jpg`}>
+                                <Image publicId="REME images/ylemiste_xvompf" id="image-thumbnail" />
+                            </a>
                             <a href={`https://res.cloudinary.com/dpk2jpxan/image/upload/v1628597969/REME%20images/paaste_a8r5qo.jpg`}>
                                 <Image publicId="REME images/paaste_a8r5qo" id="image-thumbnail" />
                             </a>
-                            <a href={`https://res.cloudinary.com/dpk2jpxan/image/upload/v1628594930/REME%20images/maestro_cnhpod.jpg`}>
-                                <Image publicId="REME images/maestro_cnhpod" id="image-thumbnail" />
+                            <a href={`https://res.cloudinary.com/dpk2jpxan/image/upload/v1629377840/REME%20images/Keemia15_ifbzyc.jpg`}>
+                                <Image publicId="REME images/Keemia15_ifbzyc" id="image-thumbnail" />
                             </a>
-                            <a href={`https://res.cloudinary.com/dpk2jpxan/image/upload/v1628594930/REME%20images/maestro_cnhpod.jpg`}>
-                                <Image publicId="REME images/maestro_cnhpod" id="image-thumbnail" />
+                            <a href={`https://res.cloudinary.com/dpk2jpxan/image/upload/v1629377842/REME%20images/Solespordikeskus_lmm1ve.jpg`}>
+                                <Image publicId="REME images/Solespordikeskus_lmm1ve" id="image-thumbnail" />
                             </a>
-                            <a href={`https://res.cloudinary.com/dpk2jpxan/image/upload/v1628594930/REME%20images/maestro_cnhpod.jpg`}>
-                                <Image publicId="REME images/maestro_cnhpod" id="image-thumbnail" />
+                            <a href={`https://res.cloudinary.com/dpk2jpxan/image/upload/v1629377840/REME%20images/Kindlusekool_ohsci9.jpg`}>
+                                <Image publicId="REME images/Kindlusekool_ohsci9" id="image-thumbnail" />
                             </a>
-                            <a href={`https://res.cloudinary.com/dpk2jpxan/image/upload/v1628594930/REME%20images/maestro_cnhpod.jpg`}>
-                                <Image publicId="REME images/maestro_cnhpod" id="image-thumbnail" />
+                            <a href={`https://res.cloudinary.com/dpk2jpxan/image/upload/v1629377841/REME%20images/Tabasaluriigigumnaasium_obxz4s.jpg`}>
+                                <Image publicId="REME images/Tabasaluriigigumnaasium_obxz4s" id="image-thumbnail" />
                             </a>
-                            <a href={`https://res.cloudinary.com/dpk2jpxan/image/upload/v1628594930/REME%20images/maestro_cnhpod.jpg`}>
-                                <Image publicId="REME images/maestro_cnhpod" id="image-thumbnail" />
+                            <a href={`https://res.cloudinary.com/dpk2jpxan/image/upload/v1629377840/REME%20images/Kultuurikeskuskaja_o12zbv.jpg`}>
+                                <Image publicId="REME images/Kultuurikeskuskaja_o12zbv" id="image-thumbnail" />
                             </a>
-                            <a href={`https://res.cloudinary.com/dpk2jpxan/image/upload/v1628597969/REME%20images/paaste_a8r5qo.jpg`}>
-                                <Image publicId="REME images/paaste_a8r5qo" id="image-thumbnail" />
+                            <a href={`https://res.cloudinary.com/dpk2jpxan/image/upload/v1629377841/REME%20images/Parnulasteaed_vlfzxa.jpg`}>
+                                <Image publicId="REME images/Parnulasteaed_vlfzxa" id="image-thumbnail" />
+                            </a>
+                            <a href={`https://res.cloudinary.com/dpk2jpxan/image/upload/v1629377835/REME%20images/HKSCAN_bxb87h.jpg`}>
+                                <Image publicId="REME images/HKSCAN_bxb87h" id="image-thumbnail" />
+                            </a>
+                            <a href={`https://res.cloudinary.com/dpk2jpxan/image/upload/v1629377842/REME%20images/Saku_Spordihoone_vacsyf.jpg`}>
+                                <Image publicId="REME images/Saku_Spordihoone_vacsyf" id="image-thumbnail" />
                             </a>
                         </SRLWrapper>
                     </SimpleReactLightbox>

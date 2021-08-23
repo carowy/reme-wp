@@ -254,6 +254,25 @@ body {
     margin-top: 1.5em;
     margin-bottom: 1.5em;
 }
+#card-icon-button {
+    border: none;
+    background: none;
+    transition: 0.3s;
+}
+#card-icon-button:hover {
+    transform: scale(1.1);
+}
+.modal {
+    overflow-y: auto;
+}
+
+.modal-open {
+    overflow: auto;
+}
+
+.modal-open[style] {
+    padding-right: 0px !important;
+}
 /* Home section 3 */
 .home-s3 {
     background-color: #000;
@@ -285,7 +304,7 @@ body {
     padding: 1em;
     padding-top: 5em;
     padding-bottom: 5em;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(0, 0, 0);
     color: white;
 }
 #about-section2-text div {
@@ -323,9 +342,16 @@ body {
     box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.411);
 }
 .about-section3 {
+    text-align: center;
+    padding: 1em;
+}
+#certificates-title {
+    padding-top: 2.5rem;
+}
+.about-section3-wrapper {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    padding: 3em;
 }
 .about-section3-wrapper h1 {
     text-align: center;
@@ -349,7 +375,7 @@ body {
     display: flex;
     justify-content: center;
     align-self: center;
-    width: 300px;
+    max-width: 500px;
 }
 #sertificate-text {
     max-width: 400px;
@@ -495,9 +521,14 @@ body {
 #image-thumbnail {
     max-width: 400px;
     justify-self: center;
+    height: 100%;
 }
 .projects-s3 a {
     margin: 1em;
+    transition: 0.3s;
+}
+.projects-s3 a:hover {
+    transform: scale(1.1);
 }
 .projects-s3 img {
     width: 100%;

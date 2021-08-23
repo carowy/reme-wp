@@ -5,6 +5,8 @@ import cityIcon from '../images/city.png'
 import propertyIcon from '../images/property.png';
 import brickWall from '../images/brick-wall.png';
 import { Link } from 'react-router-dom';
+import { Modal, Button } from 'react-bootstrap';
+import ylemiste from '../images/ylemiste.jpg';
 
 const welcomeHeadeing = {
     fontWeight: '700'
@@ -14,8 +16,27 @@ const dFlex = {
     display: "flex",
     justifyContent: "center"
 }
+function MyVerticallyCenteredModal(props) {
+    return (
+      <Modal {...props} size="lg" aria-labelledby="contained-modal-title-vcenter" centered>
+        <Modal.Header>
+          <Modal.Title id="contained-modal-title-vcenter">
+            Projekteerimise pildid
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <img src={ylemiste} width="500"/>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button onClick={props.onHide}>Sulge</Button>
+        </Modal.Footer>
+      </Modal>
+    );
+  }
+
 
 function Home() {
+    const [modalShow, setModalShow] = React.useState(false);
     return (
         <div>
             <section className="home-s1">
@@ -52,7 +73,8 @@ function Home() {
 
                         <div id="card">
                             <div style={dFlex}>
-                                <img src={planIcon} width="110" height="100" alt="plan-icon" />
+                            <Button variant="primary" id="card-icon-button" onClick={() => setModalShow(true)}><img src={planIcon} width="110" height="100" alt="plan-icon" /></Button>
+                            <MyVerticallyCenteredModal show={modalShow} onHide={() => setModalShow(false)} />
                             </div>
                             <div>
                                 <h3>Projekteerimine</h3>
@@ -109,7 +131,7 @@ function Home() {
                                 <p>Teostame suuremahulisi ja väikseid müüri ladumisi.</p>
                             </div>
                         </div>
-
+                        
 
                     </div>
                 </div>

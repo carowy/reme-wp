@@ -20,7 +20,6 @@ function About() {
                 <div id="about-section2-wrapper">
                     <div id="about-section2-text">
                         <div>
-                            <h1>Ettevõttest</h1>
                             <p>
                                 Reme Grupp keskendub betoonitööde täislahenduste pakkumisele.
                                 Pikaajalised kogemused, paindlikkus, usaldusväärsus, tähtaegadest kinnipidamine ning eelkõige kõrge kvaliteet on aidanud Reme Grupil võita tellijate usalduse. Sõltuvalt tellijate vajadustest teostab Reme Grupp nii väikesemahulisi betoonitöid kui ka suuri, keerukaid ja innovaatilisi projekte.
@@ -33,53 +32,23 @@ function About() {
                 </div>
             </section>
             <section className="about-section3" id="certificates">
+                <div>
+                    <h1 id="certificates-title">Sertifikaadid</h1>
+                </div>
                 <div className="about-section3-wrapper">
-                    <div>
-                        <h1>Sertifikaadid</h1>
-                    </div>
                     <div id="sertificate">
                         <div id="sertificate-logo">
                             <Image src={bureauVeritas} width="250" fluid/>
-                        </div>
-                        <div id="sertificate-text">
-                            <div>
-                                <h4>Bureau Veritas</h4>
-                            </div>
-                            <div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                </p>
-                            </div>
                         </div>
                     </div>
                     <div id="sertificate">
                         <div id="sertificate-logo">
                             <Image src={betYhing} width="300" fluid/>
                         </div>
-                        <div id="sertificate-text">
-                            <div>
-                                <h4>Eesti betooniühing</h4>
-                            </div>
-                            <div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                </p>
-                            </div>
-                        </div>
                     </div>
                     <div id="sertificate">
                         <div id="sertificate-logo">
                             <Image src={creditRating} width="220" fluid/>
-                        </div>
-                        <div id="sertificate-text">
-                            <div>
-                                <h4>Krediidireiting</h4>
-                            </div>
-                            <div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                </p>
-                            </div>
                         </div>
                     </div>
                 </div>
